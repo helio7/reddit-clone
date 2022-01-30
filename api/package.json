@@ -1,0 +1,23 @@
+{
+  "name": "dylan-api",
+  "version": "1.0.0",
+  "description": "Dylan API",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^14.3.2",
+    "express": "^4.17.1",
+    "nanoid": "^3.2.0",
+    "pg": "^8.7.1",
+    "sequelize": "^6.6.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Dylan Gimenez",
+  "license": "ISC",
+  "engines": {
+    "node": ">=0.12"
+  }
+}
